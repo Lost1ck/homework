@@ -1,2 +1,3 @@
-git commit -am
+git add
+git commit -am "smth"
 git push
