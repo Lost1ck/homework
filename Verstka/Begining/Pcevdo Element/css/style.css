@@ -1,0 +1,44 @@
+.text::first-letter {
+    color: red;
+    font-size: 24px;
+}
+
+
+
+
+.product {
+    width: 250px;
+    border: 1px solid #000;
+}
+.product__img {
+    height: 150px;
+    background-color: forestgreen;
+}
+.product_new::after {
+    content: 'new';
+    text-transform: uppercase;
+    color: red;
+}
+/* добавление к элементам с классом product new, подписи 'new' */
+
+
+.menu__li_new:after {
+    content: ' super new';
+}
+/* Дабы использовать псевдоэлемент к какому-либо классу, нужно добавить :nth-child($) */
+/* exp .menu__li_new:nth-child(2):after { content: 'super new'  } - будет добавлен текст к определенному блоку из nth-child(2) - в нашем слу-
+чае второму  */
+
+.menu__li:hover::after {
+    content: ' <<';
+}
+/* появление стрелочки при наведение на строку с классом menu__li */
+
+.menu__li:before {
+    content: '* ';
+    color: orange;
+}
+
+.menu {
+    list-style-type: none;
+}

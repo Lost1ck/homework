@@ -1,0 +1,17 @@
+.heading {
+    color: purple;
+}
+
+.back-gray {
+    background-color: grey;
+}
+
+input[type="text"] {
+    color: red;
+}
+
+
+/* a[href] {
+    
+} */
+/* найди ссылку с элементом внутри "href" */

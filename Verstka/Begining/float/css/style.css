@@ -1,0 +1,16 @@
+.block {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    float: left;
+}
+.heading {
+    border: 1px;
+    overflow: hidden;
+}
+.footer {
+    clear: both; 
+    /* чтобы не наезжал элемент на хеадинг и блок, что под float */
+    background-color: rgb(63, 59, 59);
+    height: 100px;
+}
