@@ -1,0 +1,33 @@
+img {
+    width: 350;
+    height: 350px;
+    
+}
+
+* {
+    font-family: sans-serif;
+}
+
+p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+}
+
+.h1__font-color {
+    font-size: 64px;
+    color: #1F3F68;
+}
+
+.h2__contacts {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+}
+
+.h3__test {
+    font-size: 36px;
+    text-align: center;
+}
+
+.h4__
