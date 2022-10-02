@@ -3,8 +3,7 @@
     padding: 0px;
 }
 body {
-    background-origin: #e8e8e8;
-
+    background: #e8e8e8 url('../img/bg.png') 50% 130px top no-repeat;
 }
 .content {
     padding: 168px 0 137px 0;
@@ -53,15 +52,78 @@ body {
     color: #53646b;
     font-size: 24px;
     line-height: 40px;
+    margin: 0px 0px 48px 0px;
 }
 .content-bottom__text {
     color: #53646b;
     font-size: 24px;
     line-height: 24px;
 }
-.content-bottom-info {
+.content-bottom__text p:last-child {
+    margin: 0;
 }
-.content-bottom-info-list {
+.content-bottom-info {
+
+}
+.content-bottom-info {
+    margin: 0px 0px 59px 0px;
+}
+.content-bottom-info-list:li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 0px 0px 0px 36px;
+    background-image: url('../img/icons/check.png') left no-repeat;
+    margin: 0px 0px 15px 0px;
+}
+.content-bottom-info-list:li:last-child {
+    margin: 0px;
+}
+.content-bottom-info-list:li:nth-child(1) {
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .3);
+    color: #273d46;
+}
+.content-bottom-info-list:li:nth-child(2) {
+    color: #80b7b3;
+    font-style: italic;
+}
+.content-bottom-info-list:li:nth-child(3) {
+    color: #273d46;
+    font-weight: 700;
+}
+.content-bottom-info-list:li:nth-child(4) {
+    text-decoration: line-through;
+    color: #273d46;
+}
+.content-bottom-info-list:li:nth-child(4) span {
+    opacity: .3;
 }
 .content-bottom-info__link {
+    padding: 0px 30px;
+    height: 40px;
+    display: inline-block; 
+    /* позволяет работать с высотой у строчного элемкнта */
+    box-shadow: 0px 5px 1px rgba(0, 0, 0, .1);
+    line-height: 44px;
+    border-radius: 24px;
+    background-color: #80b7b3;
+    height: 44px;
+    box-shadow: 0 6px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
 }
+.content-bottom-info__link span {
+    background: url('../img/icons/arrow.svg') right no-repeat;
+    padding: 0 30px 0 0;
+}
+.content-bottom-info__link:hover {
+    background-color: #511e23;
+}
+.content-bottom-info-list:active {
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, .1);
+    position: relative;
+    top: 3px;
+}
+/* 43 minets of that video */
